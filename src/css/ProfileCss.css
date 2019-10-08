@@ -1,0 +1,45 @@
+/*//////////////////////////background page //////////////////////////*/
+.Profile-page{
+	background-color: #353535;
+	display: block;
+	overflow: hidden;
+}
+
+/*////////////////////////main page //////////////////////////////*/
+
+.Profile-main{
+	float: left;
+	width: 80%;
+	background-color: #6a6a6a;
+	margin: 20px;
+	margin-left: 140px;
+}
+
+.Profile-main-item{
+	padding: 10px;
+	margin: 20px;
+	background-color: #ddd;
+}
+
+.Profile-main-item .inChange{
+	margin-left: 30px;
+}
+
+.Profile-main-submit{
+	padding: 10px;
+	margin: 20px;
+	text-align: right;
+}
+
+/*/////////////////////////////// profile theme ///////////////////////*/ 
+
+.ProfileForumTheme{
+	padding: 10px;
+	margin: 10px;
+	background-color: white;
+}
+
+.ProfileForumTheme h3{
+	text-transform: uppercase;
+	margin: 5px;
+}

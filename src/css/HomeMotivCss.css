@@ -1,0 +1,35 @@
+.HomeMotiv{
+	height: 350px;
+	color: white;
+	background: url(../img/dark_world_wallpaper.jpg) no-repeat center top / cover;
+}
+
+.HomeMotiv-title{
+	font-size: 35px;
+	padding-top: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.HomeMotiv-phrase{
+	text-align: center;
+  color: grey;
+	font-size: 38px;
+	height: 250px;
+	line-height: 250px;
+	
+}
+
+.HomeMotiv-phrase span:hover{
+	color: #fed136;
+	transform: scale(1.05);
+}
+
+.HomeMotiv-phrase span{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	transition: 0.7s;
+	text-transform: uppercase;
+}
+

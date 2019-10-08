@@ -1,0 +1,74 @@
+.About-main{
+	background-image: url(../img/about_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-color: black;
+	display: block;
+	position: relative;
+	height: 100vh;	
+}
+
+.About-title{
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 2%;
+	transition: 0.4s;
+	transform: rotate(20deg);
+}
+.About-title:hover{
+	transform: scale(1.04);
+}
+
+.About-text{
+	text-transform: uppercase;
+	font-size: 35px;
+	text-align: center;
+	margin: 20px;
+	color: white;
+	position: absolute;
+	left: 5%;
+	top: 30%;
+	transition: 0.5s;
+	transform: rotate(-30deg);
+}
+.About-text:hover{
+	transform: scale(1.04);
+}
+
+.About-goal{
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align: center;
+	margin: 20px;
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transition: 0.5s;
+	transform: rotate(-30deg);
+}
+.About-goal:hover{
+	transform: scale(1.04);
+}
+
+.About-go{
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+	margin: 20px;
+	color: white;
+	position: absolute;
+	bottom: 0%;
+	left: 24%;
+	transition: 0.5s;
+}
+.About-go:hover{
+	transform: scale(1.1);
+}
