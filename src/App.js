@@ -14,6 +14,7 @@ class App extends Component {
       <BrowserRouter>
 				<div>
 					<Switch>
+            
 						<Route path='/' component={Home} exact />
 						<Route path='/about' component={About} />
 						<Route path='/forum' component={Forum} />
