@@ -1,9 +1,8 @@
 import React from 'react'
-import '../css/NavigationOthersCss.css'
-import '../css/NewsCss.css'
-import NewsItem from './componentsNews/NewsItem'
-import Footer from './Footer'
-import NavigationOthers from './NavigationOthers'
+import './News.css'
+import NewsItem from './NewsItem'
+import Footer from '../Layout/Footer'
+import NavigationOthers from '../Layout/NavigationOthers'
 
 const News = () => {
 	return(

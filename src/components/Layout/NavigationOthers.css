@@ -1,0 +1,23 @@
+.NavigationOthers-header{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: black;
+}
+
+.NavigationOthers-header-item{
+	text-transform: uppercase;
+	color: white;
+	margin-top: 30px;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.NavigationOthers-header-item:hover{
+	text-decoration: underline;
+
+}
+
+.Navigation-logo{
+  width: 150px;
+}
+

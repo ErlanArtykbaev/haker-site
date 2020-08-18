@@ -1,17 +1,18 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 
-import '../css/style.css'
-import Navigation from './Navigation'
-import HomeNews from './componentsHome/HomeNews'
-import HomeMotiv from './componentsHome/HomeMotiv'
-import HomeAb from './componentsHome/HomeAb'
-import Footer from './Footer'
+import '../../style.css'
+import Navigation from '../Layout/Navigation'
+import HomeNews from './HomeNews/HomeNews'
+import HomeMotivation from './HomeMotivation/HomeMotivation'
+import HomeAbout from './HomeAbout/HomeAbout'
+import Footer from '../Layout/Footer'
 
 
 function Home(){
   return(
     <>
+
 		<header> 
 			<div className="Home-container">
 				<Navigation /> 
@@ -25,8 +26,8 @@ function Home(){
       </div>
     </header>
 		<HomeNews />
-		<HomeMotiv />
-		<HomeAb />
+		<HomeMotivation />
+		<HomeAbout />
 		<Footer />
     </>
   )

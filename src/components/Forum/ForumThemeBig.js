@@ -1,6 +1,6 @@
 import React from 'react'
-import NavigationOthers from '../NavigationOthers'
-import Footer from '../Footer'
+import NavigationOthers from '../Layout/NavigationOthers'
+import Footer from '../Layout/Footer'
 import queryString from 'query-string'
 import ForumBigAnswer from './ForumBigAnswer'
 

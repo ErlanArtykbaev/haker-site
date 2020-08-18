@@ -1,7 +1,7 @@
 import React from 'react'
-import NavigationOthers from './NavigationOthers'
-import '../css/AboutusCss.css'
-import Footer from './Footer'
+import NavigationOthers from '../Layout/NavigationOthers'
+import './About.css'
+import Footer from '../Layout/Footer'
 
 const About = () => {
 	return(

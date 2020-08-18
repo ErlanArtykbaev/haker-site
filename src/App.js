@@ -1,16 +1,18 @@
 import React, { Component } from 'react'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 
-import Home from './components/Home'
-import About from './components/About'
-import Forum from './components/Forum'
-import News from './components/News'
-import Profile from './components/Profile'
-import ForumThemeBig from './components/componentsForum/ForumThemeBig'
+import Home from './components/Home/Home'
+import About from './components/About/About'
+import Forum from './components/Forum/Forum'
+import News from './components/News/News'
+import Profile from './components/Profile/Profile'
+import ForumThemeBig from './components/Forum/ForumThemeBig'
 
 class App extends Component {
+  
   render() {
     return (
+			<>
       <BrowserRouter>
 				<div>
 					<Switch>
@@ -24,6 +26,8 @@ class App extends Component {
 					</Switch>
 				</div>
       </BrowserRouter> 
+
+			</>
     )
   }
 }

@@ -1,8 +1,8 @@
 import React from 'react'
-import NavigationOthers from './NavigationOthers'
-import ProfileForumTheme from './componentsProfile/ProfileForumTheme'
-import Footer from './Footer'
-import '../css/ProfileCss.css'
+import NavigationOthers from '../Layout/NavigationOthers'
+import ProfileForumTheme from './ProfileForumTheme'
+import Footer from '../Layout/Footer'
+import './Profile.css'
 
 const Profile = () => {
 	return(

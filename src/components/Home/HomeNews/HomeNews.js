@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeNewsItem from './HomeNewsItem'
-import '../../css/HomeNewsCss.css'
+import './HomeNews.css'
 
 const HomeNews = () => {
   return(
@@ -12,26 +12,26 @@ const HomeNews = () => {
 				<div className="HomeNews-container">    
 					<HomeNewsItem 
 						ahref="#"
-						clsName='HomeNews-item1'
+						clsName='HomeNews-item'
 						imgCls='HomeNews-img'
 						text="apple recovers losses after chinese court bans sale of most iphones"
 					/>
 
 					<HomeNewsItem
 						aHref='#'
-						clsName='HomeNews-item2'
+						clsName='HomeNews-item'
 						imgCls='HomeNews-img'
 						text='Apple recovers losses after Chinese court bans sale of most iPhones'
 					/>
 					<HomeNewsItem 
 						ahref="#"
-						clsName='HomeNews-item3'
+						clsName='HomeNews-item'
 						imgCls='HomeNews-img'
 						text="apple recovers losses after chinese court bans sale of most iphones"
 					/>
 					<HomeNewsItem 
 						ahref="#"
-						clsName='HomeNews-item4'
+						clsName='HomeNews-item'
 						imgCls='HomeNews-img'
 						text="apple recovers losses after chinese court bans sale of most iphones"
 					/>

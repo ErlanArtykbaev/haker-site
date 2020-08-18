@@ -1,0 +1,44 @@
+.HomeNews{
+	background-color: #1c1c1c;
+	color: white;
+	padding: 50px 0;
+}
+
+.HomeNews-container{
+	display: flex;
+	justify-content: space-evenly;
+	color: #777;
+	align-items: center;
+}
+
+.HomeNews-item{
+	padding: 30px;
+	max-width: 250px;
+	min-width: 200px;
+	transition: 0.3s;
+	background-color: #313131;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.HomeNews-item a{
+	color: #777;
+	text-decoration: none;
+}
+
+.HomeNews-item:hover, .HomeNews-item > a:hover{
+	transform: scale(1.03);
+	color: white;
+}
+
+.HomeNews-img{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.HomeNews-title{
+	margin: 40px 0;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}

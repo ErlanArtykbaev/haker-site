@@ -1,9 +1,8 @@
 import React from 'react'
-import NavigationOthers from './NavigationOthers'
-import Footer from './Footer'
-import '../css/Forum.css'
-import ForumTheme from './componentsForum/ForumTheme'
-import {Link} from 'react-router-dom'
+import NavigationOthers from '../Layout/NavigationOthers'
+import Footer from '../Layout/Footer'
+import './Forum.css'
+import ForumTheme from './ForumTheme'
 
 class Forum extends React.Component {
 	constructor(){

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/HomeMotivCss.css'
+import './HomeMotivation.css'
 
 const HomeMotiv = () => {
 	return(

@@ -1,18 +1,19 @@
 .Footer{
-	height: 180px;
 	background-color: black;
 	color: white;	
+	display: flex;
+	justify-content: space-evenly;
+	padding: 50px;
 }
 
 .Footer .item{
 	border: 1px solid white;
-	padding: 15px;
-	margin: 20px;
 	width: 19%;
-	float: left;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 60px;
+	padding: 20px 40px;
+	border-radius: 5px;
+	transition: 0.3s;
 }
 
 .item a{

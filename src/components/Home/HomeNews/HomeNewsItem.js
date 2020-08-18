@@ -1,5 +1,5 @@
 import React from 'react'
-import appleImg from '../../img/news_blog_img.jpg'
+import appleImg from '../../../assets/img/news_blog_img.jpg'
 import {Link} from 'react-router-dom'
 
 const HomeNewsItem = (props) => {
