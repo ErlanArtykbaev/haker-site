@@ -40,14 +40,19 @@ class ForumThemeBig extends React.Component{
 			<div>
 				<NavigationOthers />
 				<div className="ForumBig-main">
-					<div className="ForumBig-title">how to use loop in js</div>
+          <div className="ForumBig-title">
+            how to use loop in js
+          </div>
 					<div className="ForumBig-block">
 						<div className="ForumBig-moreInfo">
 							Here is my code... How to use loop in js. Can someone explain me?
-							
 						</div>
 						<div className="ForumBig-answerToMain">
-							<input type="text" value={this.state.inputText} onChange={this.changeHandler} className="inputTxt"/>
+              <input 
+                type="text" 
+                value={this.state.inputText} 
+                onChange={this.changeHandler} 
+                className="inputTxt"/>
 							<button onClick={this.answerToQuestion}>answer</button>
 						</div>
 						<div className="ForumBig-answers-block">

@@ -4,7 +4,6 @@ const ForumBigAnswer = (props) => {
 	return(
 		<div className="ForumBig-answer">
 			{props.content}
-			<button onClick={props.answer}>Answer</button>
 		</div>
 	)
 }
