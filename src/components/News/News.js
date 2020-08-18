@@ -9,12 +9,12 @@ const News = () => {
 		<div>
 			<NavigationOthers />
 			<div className="News">
-				<div className="News-main">
-					<NewsItem />
-					<NewsItem />
-					<NewsItem />	
-					<NewsItem />
-				</div>	
+				<NewsItem />
+				<NewsItem />
+				<NewsItem />	
+				<NewsItem />
+				<NewsItem />
+				<NewsItem />
 			</div>
 			<Footer />
 		</div>

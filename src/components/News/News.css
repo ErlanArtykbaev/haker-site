@@ -1,26 +1,19 @@
 .News{
 	background-color: #353535; 
-	display: block;
-	overflow: hidden;
-	padding-left: 120px;
+	min-height: 100vh;
+	display: flex;
+	padding: 50px;
+	flex-wrap: wrap;
 }
 
-.News-main{
-	width: 1000px;
-	background-color: #6a6a6a;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding: 20px;
-	display: block;
-	overflow: hidden;
-}
 
 .NewsItem{
-	padding: 10px;
-	margin: 20px;
+	max-width: 26%;
+	min-width: 16%;
+	padding: 20px;
+	border-radius: 5px;
 	background-color: #ddd;
-	width: 400px;
-	float: left;
+	margin: 30px;
 }
 
 .NewsItem a{
@@ -34,9 +27,15 @@
 
 .NewsItem h3{
 	text-transform: uppercase;
+	text-align: center;
+}
+
+.NewsItem p{
+	color: #353535;
 }
 
 .newsImg{
-	width: 300px;
+	width: 100%;
+	border-radius: 5px;
 }
 
