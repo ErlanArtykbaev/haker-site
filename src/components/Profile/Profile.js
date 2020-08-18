@@ -11,40 +11,65 @@ const Profile = () => {
 			<div className="Profile-page">
 				<div className="Profile-main">
 					<div className="Profile-main-item">
-						image:
-						<input name="image" className="inChange" type="text" size="50"/> 
+						<label htmlFor='image'>image:</label>
+						<input 
+							name="image" 
+							className="inChange"
+							type="text" 
+							size="50"
+							id='image'/> 
 					</div>
 					<div className="Profile-main-item">
-						name:
-						<input name="name" className="inChange" type="text" size="50"/> 
+						<label htmlFor='name'>name:</label>
+						<input 
+							name="name" 
+							className="inChange" 
+							type="text" 
+							id='name'
+							size="50"/> 
 					</div>
 					<div className="Profile-main-item">
-						username:
-						<input name="username" className="inChange" type="text" size="50"/> 
+						<label htmlFor='username'>username:</label>
+						<input 
+							name="username" 
+							className="inChange" 
+							id='username'
+							type="text" 
+							size="50"/> 
 					</div>
 					<div className="Profile-main-item">
-						email:
-						<input name="email" className="inChange" type="text" size="50"/> 
+						<label htmlFor='email'>email:</label>
+						<input 
+							name="email" 
+							className="inChange" 
+							id='email'
+							type="text" 
+							size="50"/> 
 					</div>
 					<div className="Profile-main-item">
-						phone:
-						<input name="phone" className="inChange" type="text" size="50"/> 
+						<label htmlFor='phone'>phone:</label>
+						<input 
+							name="phone" 
+							className="inChange" 
+							id='phone'
+							type="text" 
+							size="50"/> 
 					</div>
 					<div className="Profile-main-item">
-						programming area: 
+						<label htmlFor='programming'>programming area:</label>
 						<select className="inChange">
-							<option value="front">front</option>
-							<option value="back">back</option>
-							<option value="soft">soft</option>
+							<option value="front">front-end</option>
+							<option value="back">back-end</option>
+							<option value="soft">software</option>
 							<option value="android">android</option>
 							<option value="ios">iOS</option>
 						</select>
 					</div>
-					<div className="Profile-main-submit">
-						<input type="submit" value="change" />
+					<div >
+						<input className="Profile-main-submit" type="submit" value="change" />
 					</div>
-					<div className="Profile-main-item">
-						history of posts or themes:
+					<div className="Profile-main-posts">
+						<h3>history of posts or themes:</h3>
 						<ProfileForumTheme 
 							title="title"
 							content="there is the content"

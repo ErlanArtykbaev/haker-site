@@ -1,24 +1,27 @@
 /*//////////////////////////background page //////////////////////////*/
 .Profile-page{
 	background-color: #353535;
-	display: block;
-	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	padding: 30px;
 }
 
 /*////////////////////////main page //////////////////////////////*/
 
 .Profile-main{
-	float: left;
+	padding: 50px;
 	width: 80%;
 	background-color: #6a6a6a;
-	margin: 20px;
-	margin-left: 140px;
+	border-radius: 5px;
 }
 
 .Profile-main-item{
 	padding: 10px;
 	margin: 20px;
 	background-color: #ddd;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
 }
 
 .Profile-main-item .inChange{
@@ -26,17 +29,31 @@
 }
 
 .Profile-main-submit{
-	padding: 10px;
 	margin: 20px;
-	text-align: right;
+	background-color: #fed136;
+	border: none;
+	padding: 10px 25px;
+	border-radius: 5px;
+	color: black;
+}
+
+.Profile-main-posts{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.Profile-main-posts h3{
+	text-transform: uppercase;
 }
 
 /*/////////////////////////////// profile theme ///////////////////////*/ 
 
 .ProfileForumTheme{
 	padding: 10px;
-	margin: 10px;
+	margin: 10px 0;
 	background-color: white;
+	border-radius: 5px;
 }
 
 .ProfileForumTheme h3{
