@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {NavLink} from 'react-router-dom'
 
 import '../../style.css'
@@ -7,12 +7,32 @@ import HomeNews from './HomeNews/HomeNews'
 import HomeMotivation from './HomeMotivation/HomeMotivation'
 import HomeAbout from './HomeAbout/HomeAbout'
 import Footer from '../Layout/Footer'
+import image from '../../assets/img/news_blog_img.jpg'
 
 
-function Home(){
+const Home = () => {
+	
+	const [news, setNews] = useState([
+		{
+			img: image,
+			title: 'apple recovers losses after chinese court bans sale of most iphones'
+		},
+		{
+			img: image,
+			title: 'apple recovers losses after chinese court bans sale of most iphones'
+		},
+		{
+			img: image,
+			title: 'apple recovers losses after chinese court bans sale of most iphones'
+		},
+		{
+			img: image,
+			title: 'apple recovers losses after chinese court bans sale of most iphones'
+		}
+	])
+
   return(
     <>
-
 		<header> 
 			<div className="Home-container">
 				<Navigation /> 
@@ -25,7 +45,7 @@ function Home(){
         </div>
       </div>
     </header>
-		<HomeNews />
+		<HomeNews news={news} />
 		<HomeMotivation />
 		<HomeAbout />
 		<Footer />

@@ -2,7 +2,7 @@ import React from 'react'
 import HomeNewsItem from './HomeNewsItem'
 import './HomeNews.css'
 
-const HomeNews = () => {
+const HomeNews = (props) => {
   return(
     <>
 			<section className='HomeNews'>
@@ -10,31 +10,16 @@ const HomeNews = () => {
 					News
 				</div>
 				<div className="HomeNews-container">    
-					<HomeNewsItem 
-						ahref="#"
-						clsName='HomeNews-item'
-						imgCls='HomeNews-img'
-						text="apple recovers losses after chinese court bans sale of most iphones"
-					/>
-
-					<HomeNewsItem
-						aHref='#'
-						clsName='HomeNews-item'
-						imgCls='HomeNews-img'
-						text='Apple recovers losses after Chinese court bans sale of most iPhones'
-					/>
-					<HomeNewsItem 
-						ahref="#"
-						clsName='HomeNews-item'
-						imgCls='HomeNews-img'
-						text="apple recovers losses after chinese court bans sale of most iphones"
-					/>
-					<HomeNewsItem 
-						ahref="#"
-						clsName='HomeNews-item'
-						imgCls='HomeNews-img'
-						text="apple recovers losses after chinese court bans sale of most iphones"
-					/>
+					{
+						props.news.map(newsItem => (
+							<HomeNewsItem
+								ahref='#'
+								clsName='HomeNews-item'
+								imgCls='HomeNews-img'
+								text={newsItem.title}
+								img={newsItem.img} />
+						))
+					}
 				</div>
       </section>
     </>
